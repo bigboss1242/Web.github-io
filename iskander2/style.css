@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #efefef;
+    font-family: Roboto;
+
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin:auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10PX 1PX rgba(0, 0, 0, 0.2);
+;
+}
+.photo{
+    width: 200px;
+height: 100px;
+margin: 10px;
+background-color:orange;
+background-position: center;
+block-size: cover;
+transition: all 0.5s ease;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+.photo1{
+    background-image: url(img/imgres1.jpg);
+}
+.photo:hover{
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+}
+
